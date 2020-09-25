@@ -80,7 +80,7 @@ class  Main:
 			v = self.input_area.get()
 			value = math.sqrt(float(self.input_area.get()))
 			self.clear()
-			self.input_area.insert(0, f'√{v}=={value}')
+			self.input_area.insert(0, f'√{v} ={value}')
 		elif te == 'π²':
 			value = math.pi ** 2 
 			self.clear()
